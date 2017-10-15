@@ -1,6 +1,6 @@
 {
-    "name": "helloworld",
-    "displayName": "helloworld",
+    "name": "open-junkfile",
+    "displayName": "open Junkfile",
     "description": "",
     "version": "0.0.1",
     "publisher": "hidenba",
@@ -11,14 +11,25 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:extension.openJunkfile"
     ],
     "main": "./out/extension",
     "contributes": {
+        "configuration": {
+            "type": "object",
+            "title": "OpenJunkfile configuration",
+            "properties": {
+                "junkfile.dir": {
+                    "type": "string",
+                    "default": "junk",
+                    "description": "open junkfile create dir"
+                }
+            }
+        },
         "commands": [
             {
-                "command": "extension.sayHello",
-                "title": "Hello World"
+                "command": "extension.openJunkfile",
+                "title": "Open Junkfile"
             }
         ]
     },
