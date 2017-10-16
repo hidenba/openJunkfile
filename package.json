@@ -2,7 +2,7 @@
     "name": "open-junkfile",
     "displayName": "open Junkfile",
     "description": "Create a file to write memos and codes that you can throw away.",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "hidenba",
     "icon": "icon.png",
     "engines": {
@@ -57,5 +57,4 @@
         "url": "https://github.com/hidenba/openJunkfile.git"
     },
     "homepage": "https://github.com/hidenba/openJunkfile"
-    
 }
