@@ -4,6 +4,7 @@
     "description": "Create a file to write memos and codes that you can throw away.",
     "version": "0.0.1",
     "publisher": "hidenba",
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.17.0"
     },
