@@ -1,7 +1,7 @@
 {
     "name": "open-junkfile",
     "displayName": "open Junkfile",
-    "description": "",
+    "description": "Create a file to write memos and codes that you can throw away.",
     "version": "0.0.1",
     "publisher": "hidenba",
     "engines": {
@@ -45,5 +45,16 @@
         "vscode": "^1.1.5",
         "@types/node": "^7.0.43",
         "@types/mocha": "^2.2.42"
-    }
+    },
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "bugs": {
+        "url": "https://github.com/hidenba/openJunkfile/issues",
+        "email": "hide.nba@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hidenba/openJunkfile.git"
+    },
+    "homepage": "https://github.com/hidenba/openJunkfile"
+    
 }
