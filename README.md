@@ -1,7 +1,7 @@
 # openJunkfile
 Create a file to write memos and codes that you can throw away.
 
-create file to '$HOME/junk/%Y/%m/%h%m%s'.
+The `Open Junkfile` command has been added. When the command is executed, a file is created in `$HOME/junk/%Y/%m/%d-%h%m%s.xxx`.
 
 # usage
 
