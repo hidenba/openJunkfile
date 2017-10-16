@@ -22,7 +22,7 @@
                 "junkfile.dir": {
                     "type": "string",
                     "default": "junk",
-                    "description": "open junkfile create dir"
+                    "description": "junkfile create directory"
                 }
             }
         },
