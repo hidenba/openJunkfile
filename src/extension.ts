@@ -4,8 +4,9 @@ import * as vscode from 'vscode';
 export function activate(context: vscode.ExtensionContext) {
     let disposable = vscode.commands.registerCommand('extension.openJunkfile', () => {
         const date = new Date();
-        const junkPath = date.getFullYear() + '/' + (date.getMonth() + 1) + '/' + date.getDate() + '-' +
-                         date.getHours().toString() + date.getMinutes().toString() + date.getSeconds().toString() + '.';
+        const minutes = date.getMinutes() < 10 ? `0${date.getMinutes()}` : `${date.getMinutes()}`
+        const seconds = date.getSeconds() < 10 ? `0${date.getSeconds()}` : `${date.getSeconds()}`
+        const junkPath = `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}-${date.getHours()}h${minutes}m${seconds}s.`;
         const pathLength = junkPath.length                         
 
         vscode.window.showInputBox({
